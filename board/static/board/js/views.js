@@ -1,6 +1,6 @@
 (function ($, Backbone, _, app) {
 
-    var TemplateView = Backbone.view.extend({
+    var TemplateView = Backbone.View.extend({
         templateName: '',
         initialize: function () {
             this.template = _.template($(this.templateName).html());
