@@ -33,7 +33,7 @@
             if (this.authenticated()) {
                 xhr.setRequestHeader(
                     'Authorization',
-                    'Token' + this.get('token');
+                    'Token' + this.get('token')
                 );
             }
         }
