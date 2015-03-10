@@ -1,0 +1,20 @@
+{
+  "name": "scrum",
+  "version": "0.0.1",
+  "homepage": "https://github.com/pendolf/Scrum",
+  "authors": [
+    "Gennady Karev <pendolf666@gmail.com>"
+  ],
+  "description": "scrum static files",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.1.3"
+  }
+}
